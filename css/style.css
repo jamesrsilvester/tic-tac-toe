@@ -2,7 +2,21 @@
   margin-top: 10px;
 }
 
+
 .box {
   border: 1px solid black;
   height: 150px;
+  background: lavender;
+}
+
+.blue {
+  border: 1px solid black;
+  height: 150px;
+  background: blue;
+}
+
+.red {
+  border: 1px solid black;
+  height: 150px;
+  background: red;
 }
