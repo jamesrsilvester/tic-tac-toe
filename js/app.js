@@ -4,6 +4,10 @@ $(document).ready(function() {
   console.log("Script is linked");
   //assigns overall listener as gameboard
   let $gameboard = $('#board');
+
+  // RESET BUTTON
+  $('#button').on("click", function () {location.reload()});
+
   //prints box clicked to console.
   $gameboard.on("click", function (event) {
    console.log(`${event.target.id} was clicked`);
@@ -55,7 +59,7 @@ let numTurns = 2; // Starts at Even, starts with 2 rather than 0 for %.
 let addTurn = function () {numTurns ++;
 console.log(`This is turn number ${numTurns-2}`);}; //-2 because counter started at 2.
 
-//
+
 
 //WIN - X = 1 and O = 0, if ($red.length adds up to
 
