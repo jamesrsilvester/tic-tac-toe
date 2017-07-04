@@ -2,63 +2,25 @@
 
 **Objective:** Build a tic-tac-toe game in HTML, CSS, and JavaScript.
 
-
-We've been learning about working with conditionals and loops, as well as writing functions. We've also learned about the structure of the DOM and how we can interact with it using CSS and JavaScript. We've looked at Bootstrap's CSS library and at jQuery, a JavaScript library for front end web development.
-
-For this lab, we'll be making a tic-tac-toe game using the knowledge and skills you've learned so far.
-
 ## Baseline Requirements
-* Users should be able to click on any empty box to make a move.   
-* Every move should alternate between marking an `X` and `O` (the two players).  
-* A user should not be able to claim a box that has already been claimed for `X` or `O`.
-* Users should be able to click a "reset" button to clear all `X`'s and `O`'s from the board and restart the game.
-
+- [x] Users should be able to click on any empty box to make a move.   
+- [x] Every move should alternate between marking an `X` and `O` (the two players).  
+- [x] A user should not be able to claim a box that has already been claimed for `X` or `O`.
+- [x] Users should be able to click a "reset" button to clear all `X`'s and `O`'s from the board and restart the game.
 
 ## Further Challenge Ideas
 
-* Display a message to indicate which player's turn is about to be played (`X` or `O`).    
+- [ ] Display a message to indicate which player's turn is about to be played (`X` or `O`).    
 
-* If a player wins, show a message with the mark of the winner.  Separate your code that finds the winner (if there is a winner) into its own function.
+- [ ] If a player wins, show a message with the mark of the winner.  Separate your code that finds the winner (if there is a winner) into its own function.
 
-* If the board fills up before anyone wins, show a message declaring the game a draw.
+- [ ] If the board fills up before anyone wins, show a message declaring the game a draw.
 
-* Display separate colors for `X`'s and `O`'s.
+- [x] Display separate colors for `X`'s and `O`'s.
 
-* Creatively style your tic-tac-toe game!  
+- [x] Creatively style your tic-tac-toe game!  
 
-* Research "event delegation," and attach your event listeners to the whole board instead of individual boxes.
-
-## How to Get Started
-
-**Play Tic-Tac-Toe**
-
-Remind yourself how tic-tac-toe works by playing a few games with a classmate.
-
-**Set up repository, files, and basic structure.**
-
-1. Fork this repository to create a copy on your GitHub account.
-
-1. Clone the tic-tac-toe repository from *your GitHub account* into your `wdi` folder to create a local copy on your computer.
-
-2. Use `index.html` as your starting point on this project. There is already some starter code in `index.html`, `css/style.css`, and `js/app.js`.
-
-1. Make sure that jQuery and Bootstrap's CSS are linked in your `index.html`. Also link your custom CSS and JavaScript files to your `index.html`.
-
-3. Test that your CSS and JavaScript files are linked to your `index.html`. Add an alert or a `console.log` to `app.js`, and change the color of the body in `style.css`. Then open `index.html` in the browser. You should see part of an empty tic-tac-toe game board with your background color, and you should also see your alert or log message.
-
-1. There's part of a board in `index.html` already. Use Bootstrap's grid system to create the rest of the empty tic-tac-toe game board. The empty board should look like this:
-
-    <img src="board.png" width="300px" alt="empty tic tac toe board">
-
-1. Add a reset button below the board.
-
-**Target DOM elements for gameplay**
-
-1. Use the `$()` jQuery function with CSS selectors to locate each of the DOM elements your user will click. Try this in your console to make sure your selection works. Set up variables for them in your `app.js`.
-
-1. After you find the element(s), use `.on` to set up a simple `click` event listener for each of those elements. Start by having your event handler just log a message that the element was clicked.  
-
-1. Most of your game logic will happen when a user clicks inside the board, on one of the boxes.
+- [x] Research "event delegation," and attach your event listeners to the whole board instead of individual boxes.
 
 
 ## Hints and Tips:

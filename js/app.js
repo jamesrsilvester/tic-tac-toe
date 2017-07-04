@@ -54,14 +54,9 @@ let $row = $('.row'); //ROW contains the entire board and is parent event listen
 let numTurns = 2; // Starts at Even, starts with 2 rather than 0 for %.
 
 
-
 //AddTurn
 let addTurn = function () {numTurns ++;
 console.log(`This is turn number ${numTurns-2}`);}; //-2 because counter started at 2.
 
 
-
 //WIN - X = 1 and O = 0, if ($red.length adds up to
-
-
-//RESET button: Look at events homework
