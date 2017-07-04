@@ -1,31 +1,32 @@
-// wait for the DOM to finish loading
+
 $(document).ready(function() {
-  // all code to manipulate the DOM
-  // goes inside this function
+  // all code to manipulate the DOM goes inside this function
   console.log("Js linked");
-  $(document).ready(function() {
-    console.log(" and ready!");
-  })
+  //
+  let $gameboard = $('#board');
+  //prints box clicked to console.
+  $gameboard.on("click", function (event) {
+   console.log(event.target.id);
+  });
+  //confirms that clicks are recorded?
+  console.log(" and listening for clicks");
 });
 
-  //SELECT ALL with class .box
-let $boxes = $('.box');
+//Create variables here that do not require DOM load.
+
+let $boxes = $('.box'); //// Selects all boxes
 let $red = $('.red'); //RED goes first
-let $blue = $('.blue');
+let $blue = $('.blue'); //BLUE goes second
+let $row = $('.row'); //ROW contains the entire board and is parent event listener
 
 //    ///create var numTurns, set = 2. (at end of add class function, numTurns+1)
-//
-//         ///add to
-//
-//
-// ////add event listener to class = .row
-//
-//
-// //ONCE CLICKED//
-//
-//
-//
-//     //// find target of click.
+
+// //ONCE CLICKED
+
+// }
+
+     //// Save event.target of click.
+
 
       //// change target class based on odd or even
       //  if changeClass = numTurns.length % 2 === 0 &&& target.class !== ? target.addclass "red": target.addclass "red" )
